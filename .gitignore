@@ -1,0 +1,22 @@
+## Untrack most of the nifi stuff
+**/bin
+**/docs
+**/lib
+**/provenance_repository
+**/work
+**/extensions
+LICENSE
+README
+**/content_repository
+**/flowfile_repository
+**/logs
+**/run
+**/database_repository
+NOTICE
+**/state
+
+## Untrack unspecified logs.
+**.log
+
+## Untrack conf archive
+/conf/archive
