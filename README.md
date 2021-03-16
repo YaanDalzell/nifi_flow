@@ -20,7 +20,29 @@ Get the java installation directory
 
 update-alternatives --config java
 
-Create a configuration file for the java environment config
+Create a configuration file for the java environment config and reboot
 
 nano /etc/profile.d/java.sh
+  #/bin/bash
+  export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+  
+reboot
+
+Extract the nifi package and move to a suitable install location.
+tar -zxvf nifi01.13.1-bin.tar.gz
+mv nifi-1.13.1 <destination>
+
+CD to <destination>
+  
+Install Nifi
+
+sudo bin/nifi.sh install
+
+Start the service
+
+/etc/init.d/nifi start
+
+Open a browser and navigate to localhost:8080/nifi
+You may need to refresh after a few seconds.
+
 
