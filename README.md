@@ -45,4 +45,10 @@ Start the service
 Open a browser and navigate to localhost:8080/nifi
 You may need to refresh after a few seconds.
 
+After confirming that the nifi instance is functional download and extract the zip file for this repository into the Apache Nifi installation folder. 
+
+Open the directory in a terminal and set the upstream branch
+
+git push --set-upstream <host> <branch>
+
 
