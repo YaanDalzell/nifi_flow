@@ -52,3 +52,4 @@ Open the directory in a terminal and set the upstream branch
 git push --set-upstream <host> <branch>
 
 
+download the latest mariadb java connector and place into nifi lib folder
