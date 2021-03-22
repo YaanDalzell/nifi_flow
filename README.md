@@ -1,12 +1,13 @@
 # nifi_flow
 
 ## Project Installation
-Download Apache nifi Version 1.13.1 and appropriate nifi toolkit from
+Due to instability of the PutDatabaseRecord types this version of the nifi flow requires Nifi 1.12.1
+Download Apache nifi Version 1.12.1 and appropriate nifi toolkit from
 
 https://nifi.apache.org/download.html
 
-nifi-1.13.1-bin.tar.gz ( asc, sha256, sha512 )
-nifi-toolkit-1.13.1-bin.tar.gz ( asc, sha256, sha512 )
+nifi-1.12.1-bin.tar.gz ( asc, sha256, sha512 )
+nifi-toolkit-1.12.1-bin.tar.gz ( asc, sha256, sha512 )
 
 Or access these files from your local server.
 
@@ -29,8 +30,8 @@ nano /etc/profile.d/java.sh
 reboot
 
 Extract the nifi package and move to a suitable install location.
-tar -zxvf nifi01.13.1-bin.tar.gz
-mv nifi-1.13.1 <destination>
+tar -zxvf nifi01.12.1-bin.tar.gz
+mv nifi-1.12.1 <destination>
 
 CD to <destination>
   
