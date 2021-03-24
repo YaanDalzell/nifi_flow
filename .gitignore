@@ -19,3 +19,6 @@ NOTICE
 
 ## Untrack conf archive
 /conf/archive
+
+## Untrack instance_props
+**/instance_props.conf 
