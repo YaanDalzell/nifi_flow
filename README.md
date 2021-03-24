@@ -22,6 +22,15 @@ update-alternatives --config java
 
 Create a configuration file for the java environment config and reboot
 
+Create a nifi instance configuration file - <nifi installation location>/instance_props/instance_props.conf
+  Include the following values
+    python_venv=<some_location>
+    mariadb_dev_host=<somehost>
+    mariadb_dev_port=<someport>
+    mariadb_dev_username=<blah>
+    nifi_installation_location=<dir>
+    
+
 nano /etc/profile.d/java.sh
   #/bin/bash
   export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
