@@ -22,3 +22,7 @@ NOTICE
 
 ## Untrack instance_props
 **/instance_props.conf 
+
+## Untrack ide things
+.idea/
+**.iml
