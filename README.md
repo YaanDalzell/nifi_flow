@@ -67,6 +67,10 @@ Update instance_props/instance_props.conf with unique setting for any target dat
 Update /conf/nifi.properties
     
     nifi.web.port=<new port number ie; 8081>
+    
+Remove nifi.properties from the git workflow as to not commit the port change value
+
+    git update-index --skip-workflow conf/nifi.properties
 
 Update /bin/nifi.sh
 
